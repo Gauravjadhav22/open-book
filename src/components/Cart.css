@@ -1,0 +1,40 @@
+.cart-Container {
+    flex: 0;
+    height: 80vh;
+    margin-left: 80px;
+    padding: 5px;
+    overflow-y: scroll;
+}
+
+.cart-item {
+    width: 20rem;
+    line-height: 40px;
+    margin: 15px;
+    border: 3px solid navy;
+    padding: 15px;
+}
+
+.remove-from-cart {
+    background-color: rgba(243, 76, 76, 0.842);
+    color: white;
+    border: none;
+    font-size: large;
+    padding: 10px;
+    transition: ease-in-out 50ms;
+}
+
+.remove-from-cart:hover {
+    opacity: 50%;
+    background-color: red;
+    color: black;
+}
+
+.cart-icon {
+    margin-left: 52px;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: blue;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 50%;
+}

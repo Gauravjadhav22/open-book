@@ -1,0 +1,25 @@
+.Container-App{
+  text-align: center;
+}
+.Container-App >h1{
+  text-align: center;
+  font-weight: 600;
+  background-color: #3333;
+}
+.App{
+  display: flex;
+  text-align: left;
+  padding: 35px;
+  justify-content: space-around;
+  align-items: baseline;
+  font-size: larger;
+}
+
+
+@media screen and (max-width: 800px) {
+  .App{
+    align-items: center;
+    flex-direction: column;
+  }
+  
+}
